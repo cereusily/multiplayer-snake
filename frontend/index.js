@@ -4,7 +4,7 @@ const SNAKE_ONE_COLOUR = '#408bb6';
 const SNAKE_TWO_COLOUR = '#9bcb81';
 const FOOD_COLOUR = "#e55916";
 
-const socket = io('http://localhost:3000');
+const socket = io('https://warm-castle-45866.herokuapp.com/');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
